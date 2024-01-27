@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+}
+body{
+    color: #ededed;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    margin-top: 20px;
+    padding: 20px 10%;
+    background: transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.navbar a{
+    display:inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 4px 2px 8px #0ef;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+    text-decoration: none;
+    cursor: default;
+    opacity: 0;
+    animation:slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+
+}
+.navbar a:hover{
+    color: #0ef;
+    text-shadow: 4px 2px 8px #fff;
+}
+.home{
+    position :relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background:url("home.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+.home-content h3{
+    opacity:0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+.home-content h1{
+    opacity:0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+.home-content p{
+    opacity:0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+.icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    text-decoration: none;
+    border:2px solid #0ef;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #0ef;
+    /*transition: .0s ease;*/
+    opacity:0;
+    animation:slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.icon a:hover{
+    background: #0ef;
+    color: black;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 15px;
+    color: black;
+    margin-top: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity:0;
+    animation:slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px #0ef,0 0 25px #0ef,0 0 50px #0ef;
+}
+.clr{
+    color: #0ef;
+}
+.clr:hover{
+    color: white;
+}
+.home-content h3 span{
+    color: #0ef;
+    font-size: 25px;
+}
+
+/*portfolio*/
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+/*navbar*/
+@keyframes slideTop {
+    0%{
+        transform: translatey(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+
+}
+/*for ans i a am*/
+@keyframes slideBottom {
+     0%{
+         transform: translatey(-100px);
+         opacity:0;
+     }
+     100%{
+         transform: translatey(0px);
+         opacity: 1;
+     }
+
+ }
+/*for kiruthika*/
+@keyframes slideright {
+    0%{
+        transform: translatey(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+
+}
+/*for if*/
+@keyframes slideLeft {
+    0%{
+        transform: translatex(100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+}
+
+
+
+
+.about-img img{
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 10px black,0 0 10px 10px aqua;
+    margin-left: 8%;
+    margin-top: 220px;
+    position: absolute;
+}
+.about{
+    background-color: black;
+    height: 90vh;
+}
+.about-text{
+    padding-left: 510px;
+    padding-top: 200px;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+.about-text h2{
+    font-size: 50px;
+    opacity:0;
+    animation:slideTop 1s ease forwards;
+    animation-delay: .2s;
+}
+.about-text h4{
+    font-size: 20px;
+    opacity:0;
+    animation:slideLeft 1s ease forwards;
+    animation-delay: .3s;
+}
+.about-text p{
+    font-size: 20px;
+    opacity:0;
+    animation:slideLeft 1s ease forwards;
+    animation-delay: .4s;
+}
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text p .span1{
+    color: #0ef;
+}
+.btn-box1{
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 15px;
+    color: black;
+    margin-top: 70px;
+    margin-left: 520px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity:0;
+    animation:slideRight 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+
+}
+.btn-box1:hover{
+    box-shadow: 0 0 5px #0ef,0 0 25px #0ef,0 0 50px #0ef;
+}
+.about-text p .sp1:hover{
+    color: #0ef;
+}
+
+
+
+/*//education*/
+.container{
+    background-color: black;
+    height: 100%;
+    padding: 60px;
+}
+.container h1{
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 40px;
+    padding-left: 100px;
+}
+.container h1 span{
+    color: #00eeff;
+}
+.education{
+    /*background-color: pink;*/
+    height: 85vh;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.edu{
+    /*background-color: deeppink;*/
+    height: 200px;
+    width: 450px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+    border-color: #00eeff;
+    border-width: 30px;
+    box-shadow: 0 0 15px #0ef;
+}
+.edu h2{
+    color: #00eeff;
+}
+.edu:hover{
+    transform: scale(0.9);
+
+}
+
+.edu1{
+    /*background-color: deeppink;*/
+    height: 200px;
+    width: 450px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+    border-color: #00eeff;
+    border-width: 30px;
+    box-shadow: 0 0 15px #0ef;
+}
+.edu1 h2{
+    color: #00eeff;
+}
+.edu1:hover{
+    transform: scale(0.9);
+}
+.edu2{
+    /*background-color: deeppink;*/
+    height: 200px;
+    width: 450px;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 30px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+    border-color: #00eeff;
+    border-width: 30px;
+    box-shadow: 0 0 15px #0ef;
+}
+.edu2 h2{
+    color: #00eeff;
+}
+.edu2:hover{
+    transform: scale(0.9);
+}
+
+
+
+
+.page3{
+    background-color: black;
+    height: 100%;
+}
+.boxes{
+    margin-top: 30px;
+    margin-left: 100px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*margin-right: 30px;*/
+
+}
+.box{
+    width:100px;
+    height: 100px;
+    /*background-color: white;*/
+    margin: 60px;
+    border-radius: 50%;
+    padding-left: 35px;
+    padding-top: 30px;
+    box-shadow: 0 0 15px #0ef;
+}
+.box1{
+    width:140px;
+    height: 140px;
+    /*background-color: white;*/
+    margin: 60px;
+    border-radius: 20%;
+    padding-left: 30px;
+    padding-top: 50px;
+    box-shadow: 0 0 15px #0ef;
+    font-size: 20px;
+}
+.heading1{
+    padding-top: 40px;
+    padding-left: 150px;
+}
+
+
+.page4{
+    background-color: black;
+    height: 100%;
+}
+
+.vote{
+    border-radius: 30px;
+    width:300Px;
+    height:300px;
+    margin: 30px;
+}
+
+
+
+.project1{
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+}
+.text-over-image {
+    opacity: 0;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px;
+    color: black;
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.project1 .text-over-image:hover {
+    opacity: 1;
+}
+.project1 .text-over-image .text {
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+.project1 .text-over-image:hover .text {
+    opacity: 1;
+    transform: translateY(10px);
+}
+.text{
+    font-size: 20px;
+}
+.img-div{
+    height:400px;
+    width: 300px;
+    background-color: whitesmoke;
+
+    margin: 30px;
+}
+

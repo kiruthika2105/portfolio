@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+    background-color:black;
+}
+img{
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 10px black,0 0 10px 10px aqua;
+    margin-left: 15%;
+    margin-top: 130px;
+}
