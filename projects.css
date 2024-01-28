@@ -1,0 +1,55 @@
+body{
+    width:100vh;
+    background-color: black;
+}
+.projectss {
+    width:180vh;
+    height: 90vh;
+    /*background-color: blueviolet;*/
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+.parkinson h4{
+    color: floralwhite;
+    padding-left: 40px;
+}
+.placement h4{
+    color: floralwhite;
+    padding-left: 40px;
+}
+.quiz h4{
+    color: floralwhite;
+    padding-left: 40px;
+}
+.quiz-img{
+    width: 300px;
+    height: 200px;
+    padding-left: 40px;
+
+}
+.park-img{
+    width: 300px;
+    height: 200px;
+    padding-left: 40px;
+}
+.plcement-img{
+    width: 300px;
+    height: 200px;
+    padding-left: 40px;
+
+}
+h1{
+    color: floralwhite;
+    padding-left: 40px;
+    font-size: 40px;
+}
+.projectss img{
+    border-radius: 20px ;
+}
+.projectss img:hover{
+    transform: scale(0.95);
+}
