@@ -8,7 +8,7 @@
 img{
     border-radius: 50%;
 
-    box-shadow: 10px 10px 10px 10px #0ef;
+    box-shadow: 10px 10px 10px 10px black,0 0 10px 10px deeppink;
     margin-left: 60%;
     margin-top: 230px;
 }
