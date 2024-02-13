@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+
     <link rel="stylesheet" href="home.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -95,21 +96,22 @@
                            <span>JS</span>
                        </div>
                    </div>
+                   <div class="box" style="--i:14" id="box6"><i style="color:orange; font-size: 40px;" class='bx bxl-java'></i>
+                       <div class="info">
+                           <span>JAVA</span>
+                       </div>
+                   </div>
+                   <div class="box" style="--i:15" id="box5"><i style="color:green; font-size: 40px;" class='bx bxl-python'></i>
+                       <div class="info">
+                           <span>Python</span>
+                       </div>
+                   </div>
                    <div class="box" style="--i:13" id="box4"><i style="color:blue; font-size: 40px;" class='bx bxl-react'></i>
                        <div class="info">
                            <span>React</span>
                        </div>
                    </div>
-                   <div class="box" style="--i:14" id="box5"><i style="color:green; font-size: 40px;" class='bx bxl-python'></i>
-                       <div class="info">
-                           <span>Python</span>
-                       </div>
-                   </div>
-                   <div class="box" style="--i:15" id="box6"><i style="color:orange; font-size: 40px;" class='bx bxl-java'></i>
-                       <div class="info">
-                           <span>JAVA</span>
-                       </div>
-                   </div>
+
 
                </div>
                <h1 class="heading1">Professional Skills</h1>
@@ -211,7 +213,7 @@
 <div class="whole-form" id="contact">
     <h1>Contact</h1>
         <div class="form">
-            <form>
+            <form onsubmit="return validateForm()">
                 <div class="row">
                     <div class="col-25">
                         <label for="fname">Your Name</label>
@@ -245,13 +247,19 @@
                     </div>
                 </div>
                 <div class="row">
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" >
                 </div>
             </form>
         </div>
 </div>
 
+        <script>
+            function validateForm() {
 
+                alert('Form submitted successfully!');
+                return true;
+            }
+        </script>
 
 
 

@@ -34,7 +34,7 @@ body{
     display:inline-block;
     font-size: 20px;
     color: #fff;
-    text-shadow: 4px 2px 8px #0ef;
+    text-shadow: 4px 2px 8px deeppink;
     font-weight: 500;
     margin-left: 20px;
     transition: .3s;
@@ -46,7 +46,7 @@ body{
 
 }
 .navbar a:hover{
-    color: #0ef;
+    color: deeppink;
     text-shadow: 4px 2px 8px #fff;
 }
 .home{
@@ -54,7 +54,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background:url("home.png")no-repeat;
+    background:url("kiruuu.png")no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -85,11 +85,11 @@ body{
     height: 40px;
     background: transparent;
     text-decoration: none;
-    border:2px solid #0ef;
+    border:2px solid deeppink;
     border-radius: 50%;
     margin-top: 20px;
     margin-right: 10px;
-    color: #0ef;
+    color: deeppink;
     /*transition: .0s ease;*/
     opacity:0;
     animation:slideLeft 1s ease forwards;
@@ -97,14 +97,14 @@ body{
 }
 
 .icon a:hover{
-    background: #0ef;
+    background: deeppink;
     color: black;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px deeppink;
 }
 .btn-box{
     display: inline-block;
     padding: 12px 20px;
-    background: #0ef;
+    background: deeppink;
     border-radius: 40px;
     font-size: 15px;
     color: black;
@@ -115,20 +115,20 @@ body{
     opacity:0;
     animation:slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+    box-shadow: 0 0 5px deeppink, 0 0 25px deeppink;
 
 }
 .btn-box:hover{
-    box-shadow: 0 0 5px #0ef,0 0 25px #0ef,0 0 50px #0ef;
+    box-shadow: 0 0 5px deeppink,0 0 25px deeppink,0 0 50px deeppink;
 }
 .clr{
-    color: #0ef;
+    color: deeppink;
 }
 .clr:hover{
     color: white;
 }
 .home-content h3 span{
-    color: #0ef;
+    color: deeppink;
     font-size: 25px;
 }
 
@@ -198,7 +198,7 @@ body{
 
 .about-img img{
     border-radius: 50%;
-    box-shadow: 10px 10px 10px 10px black,0 0 10px 10px aqua;
+    box-shadow: 10px 10px 10px 10px black,0 0 10px 10px deeppink;
     margin-left: 8%;
     margin-top: 220px;
     position: absolute;
@@ -240,15 +240,15 @@ body{
     animation-delay: .4s;
 }
 .about-text h2 span{
-    color: #0ef;
+    color: deeppink;
 }
 .about-text p .span1{
-    color: #0ef;
+    color: deeppink;
 }
 .btn-box1{
     display: inline-block;
     padding: 12px 20px;
-    background: #0ef;
+    background: deeppink;
     border-radius: 40px;
     font-size: 15px;
     color: black;
@@ -260,14 +260,14 @@ body{
     opacity:0;
     animation:slideRight 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+    box-shadow: 0 0 5px deeppink, 0 0 25px deeppink;
 
 }
 .btn-box1:hover{
-    box-shadow: 0 0 5px #0ef,0 0 25px #0ef,0 0 50px #0ef;
+    box-shadow: 0 0 5px deeppink,0 0 25px deeppink,0 0 50px deeppink;
 }
 .about-text p .sp1:hover{
-    color: #0ef;
+    color: deeppink;
 }
 
 
@@ -285,7 +285,7 @@ body{
     padding-left: 100px;
 }
 .container h1 span{
-    color: #00eeff;
+    color: deeppink;
 }
 .education{
     /*background-color: pink;*/
@@ -301,7 +301,7 @@ body{
     border-radius: 30px;
     padding: 30px;
     margin: 20px;
-    box-shadow: 0 0 15px #0ef;
+    box-shadow: 0 0 15px deeppink;
 
 }
 .edu:hover{
@@ -402,7 +402,7 @@ body{
     border-radius: 50%;
     padding-left: 35px;
     padding-top: 30px;
-    box-shadow: 0 0 15px #0ef;
+    box-shadow: 0 0 15px deeppink;
 }
 
 
@@ -418,7 +418,7 @@ body{
     border-radius: 50%;
     padding-left: 20px;
     padding-top: 40px;
-    box-shadow: 0 0 15px #0ef;
+    box-shadow: 0 0 15px deeppink;
     color: black;
     background-color: rgba(200, 200, 200, 0.5);
 }
@@ -444,7 +444,7 @@ body{
     border-radius: 20%;
     padding-left: 30px;
     padding-top: 50px;
-    box-shadow: 0 0 15px #0ef;
+    box-shadow: 0 0 15px deeppink;
     font-size: 20px;
 }
 .heading1{
@@ -471,7 +471,7 @@ body{
     margin-top: 20%;
     margin-bottom: 10%;
     margin-left: 30%;
-    box-shadow: 0 0 15px skyblue;
+    box-shadow: 0 0 15px deeppink;
 }
 .project1{
     position: relative;
@@ -533,7 +533,7 @@ body{
 .btn-box2{
     display: inline-block;
     padding: 12px 12px;
-    background: #0ef;
+    background: deeppink;
     border-radius: 40px;
     font-size: 15px;
     color: black;
@@ -544,11 +544,11 @@ body{
     opacity:0;
     animation:slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+    box-shadow: 0 0 5px deeppink, 0 0 25px deeppink;
 
 }
 .btn-box2:hover{
-    box-shadow: 0 0 5px #0ef,0 0 25px #0ef,0 0 50px #0ef;
+    box-shadow: 0 0 5px deeppink,0 0 25px deeppink,0 0 50px deeppink;
 }
 .img-p{
   color: black;
@@ -583,16 +583,16 @@ body{
 }
 .coursera ul li a{
     text-decoration: none;
-    color: #00eeff;
+    color: deeppink;
 }
 
 .np ul li a{
     text-decoration: none;
-    color: #00eeff;
+    color: deeppink;
 }
 .np ul li a span {
  color: floralwhite;
-    text-shadow: 4px 2px 8px #0ef;
+    text-shadow: 4px 2px 8px deeppink;
 }
 .hack-geek-img{
     display: flex;
@@ -679,13 +679,14 @@ label {
     animation-delay: .1s;
 }
 input:hover{
-    box-shadow: 0 0 5px #0ef,0 0 25px #0ef;
+    box-shadow: 0 0 5px deeppink,0 0 25px deeppink;
 }
 textarea:hover{
-    box-shadow: 0 0 5px #0ef,0 0 25px #0ef;
+    box-shadow: 0 0 5px deeppink,0 0 25px deeppink;
 }
 input[type=submit] {
-    background-color: #00eeff;
+    /*background-color: #00eeff;*/
+    background-color: deeppink;
     opacity:0;
     animation:slideRight 1s ease forwards;
     animation-delay: .1s;
